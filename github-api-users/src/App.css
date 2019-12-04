@@ -20,3 +20,77 @@
 .App-link {
   color: #09d3ac;
 }
+
+.navbar {
+  width: 100vw;
+  height: 3rem;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  margin: 0 0 0 1rem;
+}
+
+.search-container {
+  display: flex;
+  width: 24rem;
+  justify-content: space-around;
+}
+
+.search {
+  width: 15rem;
+  height: 1.5rem;
+  border: 0px;
+  border-radius: 0.2rem;
+  text-indent: 0.4rem;
+}
+
+.search-button {
+  background: coral;
+  color: white;
+  width: 5rem;
+  height: 1.6rem;
+  border: 0px;
+  border-radius: 0.2rem;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 60rem;
+  height: 18rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1px auto;
+  border: 0px solid gray;
+  border-radius: 5px;
+  background: lightgray;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+}
+
+.crooked-crown {
+  transform: rotate(-20deg);
+}
+
+.followers {
+  width: 5rem;
+  height: 5rem;
+}
